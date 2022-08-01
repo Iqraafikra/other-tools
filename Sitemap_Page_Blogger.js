@@ -48,7 +48,6 @@ function GetSitemap(e) {
                post.appendChild(a);
                post.innerHTML=post.innerHTML + "<a class=\"Title_url\" href=\""+ e.feed.entry[i].link[postorder].href +"\" target=\"_blank\">"+ e.feed.entry[i].link[postorder].title; + "</a>";
             }else{
-                post.style.listStyle="none";
                 post.className="nothing"
                 post.innerHTML=post.innerHTML + "<a class=\"titleurlnoimg\" href=\""+ e.feed.entry[i].link[postorder].href +"\" target=\"_blank\">"+ e.feed.entry[i].link[postorder].title; + "</a>";
             }
